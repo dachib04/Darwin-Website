@@ -1,0 +1,195 @@
+.our_services {
+/*	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 7.62rem;
+	padding-right: 7.62rem;
+}
+
+.our_services_aside {
+	width: 60%;
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: auto auto;
+/*	grid-template-rows: repeat(auto-fill, minmax(20rem, 1fr));*/
+
+}
+
+.our_services_article {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	padding-right: 8.31rem;
+}
+
+.our_services_article h1 {
+	color: #272A45;
+	font-family: Montserrat;
+	font-size: 2.875rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.our_services_article p {
+	color: #272A45;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+}
+
+.phone_container{
+	background: #09B3DD;
+	color: #FBF3E4;
+	text-align: center;
+}
+
+.phone_img {
+	padding-top: 1rem;
+	text-align: center;
+}
+
+.phone_container h3 {
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.phone_container h4 {
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+}
+
+.case_container {
+	text-align: center;
+}
+
+.case_container h3{
+	color: #272A45;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.case_container h4 {
+	color: #272A45;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+}
+
+.increase_container {
+	text-align: center;
+}
+
+.increase_container h3 {
+	color: #272A45;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.increase_container h4 {
+	color: #272A45;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+}
+
+.money_container {
+	text-align: center;
+}
+
+.money_container h3 {
+	color: #272A45;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.money_container h4 {
+	color: #272A45;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+}
+
+.vector_img2 {
+	position: absolute;
+    right: 0px;
+    width: 100%;
+}
+
+.vector_img1 {
+	width: 100%;
+}
+
+.vector_img {
+/*	position: absolute;*/
+}
+
+
+@media only screen and (max-width: 1010px) {
+	.our_services_article {
+		padding-right: 5rem;
+	}
+	.our_services_article h1 {
+		font-size: 2.4rem;
+	}
+	.our_services_article p {
+		font-size: 1rem;
+	}
+}
+@media only screen and (max-width: 850px) {
+	.our_services {
+		flex-direction: column;
+		padding: 0;
+		align-items: center;
+	}
+	.our_services_article {
+		padding: 0;
+		text-align: center;
+		align-items: center;
+		padding-bottom: 2rem;
+	}
+}
+
+
+
+
+
+
+
+
+

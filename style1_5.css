@@ -1,0 +1,276 @@
+.problems {
+	display: flex;
+	flex-direction: row;
+	background: #0E2D3D;
+}
+
+.problem_article {
+	width: 50%;
+	text-align: left;
+	padding-left: 7.94rem;
+	padding-right: 9.44rem;
+	padding-top: 11.5rem;
+}
+
+.problem_article_1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.problem_article h1 {
+	color: #FBF3E4;
+	font-family: Montserrat;
+	font-size: 2.875rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.problem_article p {
+	color: #FBF3E4;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+}
+
+.costumer {
+	width: 50%;
+	padding-right: 7.56rem;
+}
+
+.costumer_1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.costumer_11 {
+	/*display: grid;
+	grid-template-columns: auto auto;*/
+	display: flex;
+	flex-direction: row;
+}
+
+.costumer_img1 {
+	padding-left: 5rem;
+	padding-right: 1rem;
+}
+
+.costumer_name1 h2 {
+	color: #FBF3E4;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.costumer_name1 h3 {
+	color: #FBF3E4;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.costumer_comment1 h3 {
+	color: #FBF3E4;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: italic;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+}
+
+.costumer_comment1 p {
+	color: #FBF3E4;
+	text-align: right;
+	font-family: Montserrat;
+	font-size: 1.3125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.1575rem;
+}
+
+.costumer_comment1 h2 {
+	color: #09B3DD;
+	text-align: right;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+	text-transform: uppercase;
+}
+
+.costumer_2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.costumer_22 {
+	/*display: grid;
+	grid-template-columns: auto auto;*/
+	display: flex;
+	flex-direction: row;
+}
+
+.costumer_img2 {
+	padding-left: 5rem;
+	padding-right: 1rem;
+}
+
+.customer_name2 h2 {
+	color: #FBF3E4;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.customer_name2 h3 {
+	color: #FBF3E4;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.costumer_comment2 h3 {
+	color: #FBF3E4;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: italic;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+}
+
+.costumer_comment2 p {
+	color: #FBF3E4;
+	text-align: right;
+	font-family: Montserrat;
+	font-size: 1.3125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.1575rem;
+}
+
+.costumer_comment2 h2 {
+	color: #09B3DD;
+	text-align: right;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+	text-transform: uppercase;
+}
+
+
+.costumer_3 {
+	display: flex;
+	flex-direction: column;
+}
+
+.costumer_33 {
+	/*display: grid;
+	grid-template-columns: auto auto;*/
+	display: flex;
+	flex-direction: row;
+}
+
+.costumer_img3 {
+	padding-left: 5rem;
+	padding-right: 1rem;
+}
+
+.costumer_name3 h2 {
+	color: #FBF3E4;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.costumer_name3 h3 {
+	color: #FBF3E4;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.costumer_comment3 h3 {
+	color: #FBF3E4;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: italic;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+}
+
+.costumer_comment3 h2 {
+	color: #09B3DD;
+	text-align: right;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+	text-transform: uppercase;
+}
+
+
+.costumer_comment3 p {
+	color: #FBF3E4;
+	text-align: right;
+	font-family: Montserrat;
+	font-size: 1.3125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.1575rem;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+	.costumer {
+		padding-right: 1rem;
+	}
+	.problem_article {
+		padding-left: 4rem;
+		padding-right: 6rem;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.costumer {
+		padding-right: 1rem;
+	}
+	.problem_article {
+		padding-left: 2rem;
+		padding-right: 4rem;
+	}
+}

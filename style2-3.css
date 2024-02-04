@@ -1,0 +1,10 @@
+.work_with{
+	margin: 5.62rem;
+}
+
+.company {
+	display: grid;
+/*	grid-template-columns: repeat(6, 2fr);*/
+	grid-template-columns: repeat(auto-fill, minmax(210px, 2fr));
+	align-items: center;
+}

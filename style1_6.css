@@ -1,0 +1,83 @@
+.contact {
+	display: flex;
+	flex-direction: row;
+	background: linear-gradient(0deg, #09B3DD 0%, #09B3DD 100%), #09B3DD;
+}
+
+.contact_container {
+	display: grid;
+	grid-template-rows: auto auto;
+	width: 50%;
+}
+
+.contact_container2 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 5.38rem;
+	padding-left: 6.75rem;
+	padding-right: 6.75rem;
+}
+
+.contact_container2 h1 {
+	color: #FBF3E4;
+	font-family: Montserrat;
+	font-size: 2.875rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.contact_container2 p {
+	color: #FBF3E4;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+.email {
+	background: #FBF3E4;
+	height: 3.5rem;
+	border: none;
+	color: #989898;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+	margin-left: 6.75rem;
+	margin-right: 6.75rem;
+
+}
+
+.submit {
+	border: 1px solid #FBF3E4;
+	background: #09B3DD;
+	width: 9.6875rem;
+	height: 3.125rem;
+	flex-shrink: 0;
+	color: #FBF3E4;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.135rem;
+	margin-left: 6.75rem;
+	margin-right: 6.75rem;
+}
+
+.contact_img {
+	width: 50%;
+}
